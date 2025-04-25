@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-cabecalho {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-img-lista {
+  display: flex;
+  align-self: center;
+  
+  gap: 9rem;
+}
+
+.div-img-lista nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 12px;
+}
+
+.div-img-lista ul {
+    list-style: none;
+}
